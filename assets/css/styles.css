@@ -1,0 +1,130 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+ 
+}
+header{
+  
+    
+    background-image: url(../design2_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border:solid;
+    border-width: 0.5px;
+     
+    
+}
+h1{
+    
+    vertical-align: bottom;
+    width: 100%;
+    font-size: 6vh;
+    text-align: left;
+    font-style: italic;
+
+    padding-left: 1rem;
+    background-color: rgba(0, 67, 51, 0.861);
+    color:rgb(200, 204, 210);
+}
+header h2{
+    
+    text-align: center;
+    border:solid;
+    padding:1rem;
+    background-color:rgb(34, 119, 101);
+    border-radius: 5px;
+    position:relative;
+    top:230px;
+    width: 100%;
+    color:aliceblue;
+
+}
+
+nav{
+    position: relative;
+    float:right;
+    min-height: 10vh;
+    padding: 0.5rem;
+    margin-top:-3rem;
+    top:1.5rem;
+  
+    
+}
+
+nav a{
+    width: 7rem;
+    display: inline-block;
+    color: white;
+    background-color: rgb(57, 57, 241);
+    text-align: center;
+    padding: 0.3rem;
+    margin: 1px 2px 3px 4px ;
+    box-shadow:  0.5rem 0.5rem rgb(2, 2, 44);
+    font-size:0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background-color: rgb(130, 146, 145);
+    color: white;
+}
+nav a[href="#"]{
+    background-color: rgb(132, 204, 132);
+    color: white;
+}
+.Fondo{
+  opacity: 0.4;
+  position:absolute;
+  width: 100%;
+  object-fit: cover;
+  z-index:-1;
+}
+
+main{
+    
+    min-height: 80vh;
+    
+}
+
+main figure img
+{  
+   height:20%;
+   object-fit: contain;
+   
+    position:absolute;
+    left: 0;
+    
+    
+    }
+
+
+section,.contacto{
+
+    display: inline-block;
+    width: 70%;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 0rem;
+    padding: 2rem;
+    
+    margin-top: 1rem;
+   
+    height: 100px;
+   
+    
+}
+section, h2 {
+    border:0;
+    
+}
+section h3 {
+    font-style: italic;
+}
+section p{
+    margin-left: 2rem;
+}
