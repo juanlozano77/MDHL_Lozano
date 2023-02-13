@@ -26,8 +26,8 @@ h1{
     font-style: italic;
 
     padding-left: 1rem;
-    background-color: rgba(0, 67, 51, 0.861);
-    color:rgb(200, 204, 210);
+    background-color: rgba(9, 1, 31, 0.861);
+    color:rgb(106, 180, 139);
 }
 header h2{
     
@@ -39,9 +39,11 @@ header h2{
     position:relative;
     top:230px;
     width: 100%;
-    color:aliceblue;
+    color:rgb(10, 29, 46);
 
 }
+
+
 
 nav{
     position: relative;
@@ -66,17 +68,25 @@ nav a{
     font-size:0.9rem;
     font-weight: bold;
     text-decoration: none;
+    border-radius: 60px;
+    
     
 }
+
 
 nav a:hover{
     background-color: rgb(130, 146, 145);
     color: white;
+    background-position: 100%;
+    transform: translate(0rem, 0.5rem);
+    box-shadow: none;
 }
+
 nav a[href="#"]{
     background-color: rgb(132, 204, 132);
     color: white;
 }
+
 .Fondo{
   opacity: 0.4;
   position:absolute;
@@ -124,6 +134,11 @@ section, h2 {
 }
 section h3 {
     font-style: italic;
+
+}
+
+section h3::before{
+    content:"\01F3D2"; 
 }
 section p{
     margin-left: 2rem;
