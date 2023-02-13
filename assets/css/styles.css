@@ -34,13 +34,13 @@ header h2{
     text-align: center;
     border:solid;
     padding:1rem;
-    background-color:rgb(181, 247, 236);
+    background-color:rgba(181, 247, 236, 0.555);
     border-radius: 5px;
     position:relative;
     top:230px;
     width: 100%;
     color:rgb(10, 2, 41);
-    opacity: 0.8;
+    
     
 }
 
