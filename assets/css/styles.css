@@ -1,0 +1,183 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+ 
+}
+.banner{
+     
+    background-image: url(../images/design2_image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border:solid;
+    border-width: 0.5px;
+    display: flex;
+    
+}
+header{
+    display: flex;
+    height:60px;
+    background-color: rgba(9, 1, 31, 0.861);
+    justify-content: space-between;     
+
+}
+header>h1{
+    align-self: center;
+    font-size: 20px;
+    text-align: left;
+    font-style: italic;
+    padding-left: 1rem;
+    color:rgb(106, 180, 139);
+}
+header>nav{
+    align-self: center;
+        
+}
+
+
+.banner>h2{
+    
+    text-align: center;
+    border:solid;
+    padding:1rem;
+    background-color:rgba(181, 247, 236, 0.555);
+    border-radius: 5px;
+    width: 100%;
+    color:rgb(10, 2, 41);
+    align-self: flex-end;
+
+    
+    
+}
+
+
+
+
+nav a{
+    width: 7rem;
+    display: inline-block;
+    color: white;
+    background-color: rgb(57, 57, 241);
+    text-align: center;
+    padding: 0.3rem;
+    margin: 1px 2px 3px 4px ;
+    box-shadow:  0.5rem 0.5rem rgb(0, 0, 10);
+    font-size:0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 60px;
+    
+    
+}
+
+
+nav a:hover{
+    background-color: rgb(130, 146, 145);
+    color: white;
+    background-position: 100%;
+    transform: translate(0rem, 0.5rem);
+    box-shadow: none;
+}
+
+nav a[href="#"]{
+    background-color: rgb(132, 204, 132);
+    color: white;
+}
+
+
+.container{
+    
+    display: flex;
+    justify-content: center;     
+    align-items: stretch;
+    flex-wrap: wrap; 
+    background-color: rgba(5, 0, 19, 0.861);
+    height: max-content;
+}
+
+
+header>figure>.Logo
+{  
+    
+    padding-left:15px;
+    padding-right: 15px;
+    }
+
+
+
+.container>section,.contacto,table{
+
+    border: solid;
+    padding:14px;
+    margin: 0.5rem;
+    background-color: bisque;
+    align-self: center;
+    border-radius: 25px; 
+    
+    
+}
+.container>section:hover{
+    transition: all 0.8s ease;
+    transform: rotateX(360deg);
+}
+
+table{
+    width:500px;
+    text-align:left;
+}
+section, h2 {
+    border:0;
+   
+}
+
+caption>h2,caption>p{
+    color:rgb(255, 244, 230);
+   
+}
+section h3 {
+    font-style: italic;
+
+}
+
+section h3::before{
+    content:"\01F3D2";
+}
+section p{
+    margin-left: 2rem;
+    
+}
+li{
+    margin-left:60px;
+    padding:0.2rem;
+}
+.carrusel{
+    display: flex;
+    height:250px;
+    justify-content: center; 
+    background-color: rgba(5, 0, 19, 0.861);
+    padding:25px;
+    gap: 12px;
+}
+.polaroid {
+    align-self: center;
+
+   
+    padding:10px 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.RotarIzq {
+    transform:rotate(10deg);
+    
+}
+.RotarDer {
+    transform:rotate(-10deg);
+    
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+}
