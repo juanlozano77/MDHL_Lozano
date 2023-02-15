@@ -47,11 +47,8 @@ header>nav{
     width: 100%;
     color:rgb(10, 2, 41);
     align-self: flex-end;
-
-    
-    
+        
 }
-
 
 
 
@@ -107,17 +104,24 @@ header>figure>.Logo
 
 
 
-.container>section,.contacto,table{
+.container>section,.contacto,table,.adicionales{
 
     border: solid;
     padding:14px;
     margin: 0.5rem;
     background-color: bisque;
-    align-self: center;
     border-radius: 25px; 
-    
+    max-width: 80%;
     
 }
+.adicionales{
+    width: 70%;
+}
+
+
+dt::after {
+    content: ": ";
+  }
 .container>section:hover{
     transition: all 0.8s ease;
     transform: rotateX(360deg);
@@ -151,6 +155,10 @@ section p{
 li{
     margin-left:60px;
     padding:0.2rem;
+    
+}
+ul > li {
+    list-style-type: square ;
 }
 .carrusel{
     display: flex;
@@ -177,7 +185,66 @@ li{
     transform:rotate(-10deg);
     
 }
-ul{
-    display: flex;
-    justify-content:space-between;
+.contact{
+    display:flex;
+    justify-content: space-between;
 }
+dd{
+    display:block;
+}
+dt{
+    display:inline;
+    font-weight: bold;
+
+}
+dd{
+    display:inline;
+    
+}
+
+
+table, th, td {
+    text-align: center;
+}
+
+th {
+   
+    color: rgb(5, 117, 52);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.rules{
+    list-style-type:  decimal;
+    
+
+}
+.field{
+    list-style-type:  lower-latin;
+
+}
+
+
+.eventos{
+    width: 210px;
+    align-self: flex-start;
+    height: 180px;
+}
+.eventos>p{
+    text-align: center;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    font-size: 12px;
+ }
+.eventos>p::before{
+    content:"📆\A"; white-space: pre;
+}
+.phone{
+    list-style-image: url(../images/phone-icon.png) ;
+    font-size: 20px;
+}
+
+.email{
+    list-style-image: url(../images/Email-icon.png);
+    font-size: 20px;
+}
+
