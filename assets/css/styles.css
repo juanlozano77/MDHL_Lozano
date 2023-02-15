@@ -205,6 +205,7 @@ dd{
 
 table, th, td {
     text-align: center;
+    border-color: #9ab80b;
 }
 
 th {
@@ -248,3 +249,6 @@ th {
     font-size: 20px;
 }
 
+td:nth-child(1n) {
+    border-bottom: solid 2px rgb(22, 194, 22);
+   }
