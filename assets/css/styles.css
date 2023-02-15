@@ -232,7 +232,8 @@ th {
 }
 .eventos>p{
     text-align: center;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
     padding: 0.5rem;
     font-size: 14px;
  }
