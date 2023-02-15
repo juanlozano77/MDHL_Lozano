@@ -249,6 +249,8 @@ th {
     font-size: 20px;
 }
 
-td:nth-child(1n) {
-    border-bottom: solid 2px rgb(22, 194, 22);
-   }
+
+td {
+    border-bottom: solid 2px   rgb(72, 166, 72);
+}
+ 
