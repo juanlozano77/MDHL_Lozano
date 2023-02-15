@@ -188,6 +188,7 @@ ul > li {
 .contact{
     display:flex;
     justify-content: space-between;
+  
 }
 dd{
     display:block;
@@ -243,14 +244,20 @@ th {
 }
 .phone{
     list-style-image: url(../images/phone-icon.png) ;
-    font-size: 20px;
+    font-size: 18px;
+    
+}
+.phone::before{
+    content:url(../images/phone-icon.png) ;
 }
 
 .email{
-    list-style-image: url(../images/Email-icon.png);
-    font-size: 20px;
+   
+    font-size: 18px;
 }
-
+.email::before{
+    content: url(../images/Email-icon.png);
+}
 
 td {
     border-bottom: solid 2px   rgb(72, 166, 72);
