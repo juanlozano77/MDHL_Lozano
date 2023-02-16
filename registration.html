@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>MDHL - Contact</title>
+</head>
+<body>
+   
+    <header>
+        <figure>
+            <img src="./assets/images/Logo_Mighty_ducks-01.png" alt="Logo" height="60" class="Logo">
+        </figure>
+        <h1>Mighty Ducks Hockey League</h1>
+       
+        
+            <nav>
+            
+                <a href="./index.html">Home</a>
+          
+                <a href="./about_MDHL.html">About</a>
+           
+                <a href="./contact.html">Contact</a>
+
+                <a href="./game_info.html">Game Info</a>
+
+                <a href="./rules.html">Rules</a>
+
+                <a href="#">Registration</a>
+            
+            </nav>
+        <figure>
+            <img src="./assets/images/Logo_Mighty_ducks-01.png" alt="Logo" height="60" class="Logo">
+        </figure>
+       
+    </header>
+    <main>
+        <article class="banner">
+            <h2>Registration Form</h2> 
+        </article>    
+         
+        <div class="container">
+            <form action="./show_data.html
+            ">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                <div class="Personal_info">
+                    <div class="single_text">
+                        <p>
+                        <label>Player's First Name</label>
+                        <input type="text" name="Player_First_Name" maxLength="30" required>
+                    </p>
+                    </div>
+        
+                    <div class="single_text">
+                        <p>
+                        <label>Last Name</label>
+                        <input type="text" name="Last_Name" maxLength="30" required>
+                        </p>
+                    </div>
+        
+                    <div class="single_text">
+                        <p>
+                        <label>Street Address:</label>
+                        <input type="text" name="Street_Address" maxLength="100" required class="inputlargo">
+                        </p>
+                    </div>
+                    <div class="single_text">
+                    <p>
+                        <label>City:</label>
+                        <select class="drown_list" name="Citiy">
+                        <option disabled selected>Select one choice</option>
+                                <option value="Aurora">Aurora</option>
+                                <option value="Champaign">Champaign</option>
+                                <option value="Chicago">Chicago</option>
+                                <option value="Cicero">Cicero</option>
+                                <option value="Elgin">Elgin</option>
+                                <option value="Joliet">Joliet</option>
+                                <option value="Naperville">Naperville</option>
+                                <option value="Peoria">Peoria</option>
+                                <option value="Rockford">Rockford</option>
+                                <option value="Springfield">Springfield</option>
+                                <option value="Waukegan">Waukegan</option>
+                                <option value="Other">Other</option>
+                        </select> 
+                            </p>
+                    </div>
+        
+                    <div class="single_text" >
+                        <p>
+                            <label>Zip Code
+                            <input type="number" name="ZipCode" min="1" max="9999" required>
+                            </label>
+                        </p>
+                        
+                    </div>
+                    <div class="date" >
+                        <p>
+                            <label>Birth Date
+                            <input type="date" name="fecha_nacimiento" min="2004-01-01" max="2018-01-01" required>
+                            </label>
+                        </p>
+                        
+                    </div>
+                    
+                   </div>
+                    
+                        <p>Grade:</p>
+                    <div class="radio-button" >
+                        <label>Pre-School<input name="grade" type="radio" value="grade0" required></label>
+                        <label>1st<input name="grade" type="radio" value="grade1"></label>
+                        <label>2st<input name="grade" type="radio" value="grade2"></label>
+                        <label>3st<input name="grade" type="radio" value="grade3"></label>
+                        <label>4st<input name="grade" type="radio" value="grade4"></label>
+                        <label>5st<input name="grade" type="radio" value="grade5"></label>
+                       
+                    </div>
+                    
+                    
+                        <p>Closest_School:</p>
+                    <div class="radio-button" >
+                        <label>AJ Katzenmaier<input name="Closest" type="radio" value="AJ" required></label>
+                        <label>Greenbay<input name="Closest" type="radio" value="GB"></label>
+                        <label>Howard A Yeager <input name="Closest" type="radio" value="HAY"></label>
+                        <label>Marjorie P Hart<input name="Closest" type="radio" value="MPJ"></label>
+                        <label>North Elementary<input name="Closest" type="radio" value="NE"></label>
+                        <label>South Elementary <input name="Closest" type="radio" value="SE"></label>
+                        
+                    </div>
+        
+                    
+                        <p>What position(s) do you normally play? (check all that apply):</p>
+                    
+                        <div class="check-group" >
+                        <label>Forward<input name="Position" type="checkbox" value="Fd"></label>
+                        <label>Defense<input name="Position" type="checkbox" value="Df"></label>
+                        <label>Minfield<input name="Position" type="checkbox" value="Mf"></label>
+                        <label>Goalkepper<input name="Position" type="checkbox" value="Gk"></label>
+                        
+                    </div>
+        
+                    
+                        <p>Uniform Size:</p>
+                    <div class="radio-button" >
+                        <label>Youth Small<input name="Uniform" type="radio" value="YS" required></label>
+                        <label>Youth Medium<input name="Uniform" type="radio" value="YM"></label>
+                        <label>Youth Large<input name="Uniform" type="radio" value="YL"></label>
+                        <label>Small<input name="Uniform" type="radio" value="S"></label>
+                        <label>Medium<input name="Uniform" type="radio" value="M"></label>
+                        <label>Large<input name="Uniform" type="radio" value="L"></label>
+                        <label>Extra Large<input name="Uniform" type="radio" value="XL"></label>
+                        
+                    </div>
+                    
+        
+        
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Permision to play</legend>
+                    <div class="permision">
+                        <p>
+                            I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules 
+                            of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with
+                            hockey and in consideration for the "League" accepting the registrant for its hockey programs
+                            and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees 
+                            and associated personnel and volunteers,including the facilities used for practices and games,
+                            against any claim by or on behalf of the registrant as a result of the registrant's participation
+                            in the programand/orbeing transported to or from MDHL sponsored activities,which transportation 
+                            By signing below, I herebyagree andauthorizethe above.ln addition, by signing below, lalso 
+                            acknowledge that I have read the cancellation policy and agree to its terms. 
+        
+                        </p>
+                    </div>
+                    <div class="single_text">
+                        <p>
+                        <label>Parent/Guardian Signature:</label>
+                        <input type="text" name="Signature" maxLength="30" required>
+                        </p>
+                    </div>
+        
+                    <div class="date">
+                        <p>
+                        <label>Date:</label>
+                        <input type="date" name="DateAuth" required>
+                        </p>
+                    </div>
+                </fieldset>
+                <input type="reset" class="resetear">
+                <button class="send">Enviar</button>
+            </form>
+            
+        </div>
+
+        
+         <div class="carrusel">
+            <figure>
+                <img src="./assets/images/hockey_1.jpg" alt="Play_hockey" height="200" class="polaroid RotarIzq">
+            </figure>
+            <figure>
+                <img src="./assets/images/hockey_2.jpg" alt="Play_hockey" height="200" class="polaroid">
+            </figure>
+            <figure>
+                <img src="./assets/images/hockey_3.jpg" alt="Play_hockey" height="200" class="polaroid RotarDer">
+            </figure>
+        </div>
+        
+        
+    </main>
+  
+</body>
+</html>
