@@ -2,7 +2,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
- 
+  
+}
+
+body{
+    background-color: rgb(4, 3, 19);
 }
 .banner{
      
@@ -162,12 +166,12 @@ ul > li {
 }
 .carrusel{
     display: flex;
-    height:34vh;
     justify-content: center; 
     background-color: rgba(5, 0, 19, 0.861);
     padding:25px;
     gap: 12px;
 }
+    
 .polaroid {
     align-self: center;
 
